@@ -1,8 +1,5 @@
 var name = 'oleg';
-var obj= {
-    name:'asd',
-    secondName:'asd'
+alert(name+' motherf*cker');
+function Fx(){
+    document.getElementById("txtCopy").innerHTML= document.getElementById("txtPaste")
 }
-alert("I'm watching you"+ obj);
-name = 'alex';
-alert('motherf*cker'+name);
