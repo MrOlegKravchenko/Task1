@@ -6,19 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="">
     <title>Document</title>
-
+    <link rel="stylesheet" type="text/css" href="./css/form.css" />
+    <!-- <style type="text/css">
+        body { background-image:url("./img/deer.jpg") }
+        header { margin-top:150px;padding: 150px; position:absolute; background-color: 
+            rgb(240, 253, 52); }
+        main { background-color: rgb(47, 206, 140); }
+        p { position: relative; color:rgb(224, 95, 55)}
+    </style> -->
     
 </head>
 <body>
-    <header>Введите новую запись</header>
-    <main style="width: 100%;background-color: rgb(47, 206, 140);height: 100vh;">
+    <header id="txtPaste">Введите новую запись</header>
+    <main>
         <form>
-            <p style="color:rgb(224, 95, 55)"><b>Title</b><button id="dld">Deadline Date</button></p>
+            <p><b>Title</b></p> 
+            <button id="dld" style="left: 250px; padding: 15px; position:fixed;">Deadline Date</button>
             <textarea style="left:10%" id="txtCopy"></textarea>
             <button id="btn">Save</button>
         </form>
     </main>
-    <aside id="txtPaste"></aside>
+    
     <script src="js/Hello.js"></script>
     
 </body>

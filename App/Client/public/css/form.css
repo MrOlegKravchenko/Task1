@@ -1,13 +1,9 @@
-.left{
-    width: 500px;
-    background: #555;
-    height: 500px;
-}
-.right{
-    display: inline-block;
-    /* display: inline;
-    zoom: 1; */
-    width: 100%;
-    margin-right: -100%;
-    vertical-align: bottom;
-}
+    @charset "windows-1251";
+        /* CSS Document */ 
+
+    body { background-image:url("./img/deer.jpg") }   /*где мой олень ???*/
+    header { margin:0px;padding: 30px; position:fixed; left: 15%; top: 5%; 
+        background-color:rgb(194, 194, 194); }
+    main { width: 75%;height: 30%; margin-top:150px;padding: 0px; position:fixed; left: 5%; top: 15%; 
+        background-color: rgb(47, 206, 140); }
+    p { position: relative; color:white}   
