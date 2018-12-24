@@ -1,9 +1,11 @@
-    @charset "windows-1251";
+@charset "windows-1251";
         /* CSS Document */ 
 
-    body { background-image:url("./img/deer.jpg") }   /*где мой олень ???*/
-    header { margin:0px;padding: 30px; position:fixed; left: 15%; top: 5%; 
-        background-color:rgb(194, 194, 194); }
-    main { width: 75%;height: 30%; margin-top:150px;padding: 0px; position:fixed; left: 5%; top: 15%; 
-        background-color: rgb(47, 206, 140); }
-    p { position: relative; color:white}   
+body { position: fixed; margin:10% ; background-image:url("./img/deer.jpg") }   /*где мой олень ???*/
+header { position: relative; margin:10%; padding:2%; width: 150%; left: 20%; top: 5%; 
+    border-radius: 8px; background-color:rgb(194, 194, 194); font-family: Georgia ; color: black }
+main { position: fixed;  width: 50%;height: 30%; margin-top:5%;padding: 0px; 
+    left: 5%; top: 15%; background-color: rgb(47, 206, 140); }
+p { position: relative; margin: 5%; width: 35% ; padding: 10px ;font-family: Georgia ;
+    border-radius: 8px; background-color: rgb(163, 160, 160) ;color:black}
+textarea {position: relative; margin:0%;  ;}    
