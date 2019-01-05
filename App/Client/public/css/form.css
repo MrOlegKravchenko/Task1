@@ -1,13 +1,13 @@
 @charset "windows-1251";
         /* CSS Document */ 
-    #sidebar, #content { position: absolute; } 
-    #sidebar, #content { overflow: auto; padding: 10px; }
 
-body { position: absolute;background-color: lightblue; background-image:url("./img/deer.jpg") }   /*где мой олень ???*/    
-header { position: relative; margin:10%; padding:2%; width: 150%; left: 0%; top: 5%; 
-    border-radius: 8px; background-color:rgb(194, 194, 194); font-family: Georgia ; color: black }
-main { position: fixed;  width: 50%;height: 30%; margin-top:5%;padding: 0px; 
-    left: 5%; top: 15%; background-color: rgb(47, 206, 140); }
-p { position: relative; margin: 5%; width: 40% ; height: 50%; font-family: Georgia ;
-    border-radius: 8px; background-color: rgb(163, 160, 160) ;color:black}
-textarea {position: relative; margin:5%; left:10%; } 
+body { position: absolute; height: 100%; background:linear-gradient(to top left, powderblue, pink);
+    font-family:Georgia,Times,'Times New Roman',serif;}
+header { position:fixed; padding:8px; width:30%; left:7%; top:5%; font-size: 24px; color: black }
+main { position: fixed;  width: 50%;height: 40%; left: 5%; top: 15%; background-color: rgb(47, 206, 140);}
+section {position: relative; left:80%; width:50%; top:10%; height:90%; background: blue;}
+
+.newTitle{position:relative; left:15px; top:15px; width:75%; border-radius:7px; padding:5px;}
+.btnDeadline{position:relative; margin-left:35px; border-radius:7px; padding:10px;}
+.newNote{position:relative; left:15px; width:95%; height:40%; margin-top:20px; border-radius:7px;}
+.btnSave{position:relative; margin-left:35px; border-radius:7px; padding:10px;}
