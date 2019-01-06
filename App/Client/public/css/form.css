@@ -1,67 +1,43 @@
 @charset "windows-1251";
         /* CSS Document */ 
-
-body { 
-    position: absolute; 
-    height: 100%; 
-    background:linear-gradient(to top left, powderblue, pink);
-    font-family:Georgia,Times,'Times New Roman',serif;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-header {
-     position:fixed; 
-     padding:8px; 
-     width:30%; left:7%; 
-     top:5%; 
-     font-size: 24px; 
-     color: black 
+body {
+    background: linear-gradient(to bottom right, #D4C8DA, #CCEDC5);
 }
 
-main { 
-    position: fixed;  
-    width: 50%;
-    height: 40%;
-    left: 5%; 
-    top: 15%; 
-    background-color: rgb(47, 206, 140);
+.wrapper {
+    display: flex;
+    align-items: stretch;
+    height: 100vh;
 }
 
-section {
-    position: relative; 
-    left:80%; 
-    width:50%; 
-    top:10%; 
-    height:90%; 
-    background: blue;
+main {  
+    width: 55%;
 }
 
-.newTitle{
-    position:relative; 
-    left:15px; top:15px; 
-    width:75%; 
-    border-radius:7px; 
-    padding:5px;
+.user-form {
+    width: 60%;
+    padding: 10px;
+    margin: 0 auto;
 }
 
-.btnDeadline{
-    position:relative; 
-    margin-left:35px; 
-    border-radius:7px; 
-    padding:10px;
+.form-elem {
+    width: 100%;
+    margin-bottom: 5px;
 }
 
-.newNote{
-    position:relative; 
-    left:15px; 
-    width:95%; 
-    height:40%;
-    margin-top:20px; 
-    border-radius:7px;
+.form-title {
+    width: 60%;
 }
 
-.btnSave{
-    position:relative; 
-    margin-left:35px; 
-    border-radius:7px; 
-    padding:10px;
+.form-text {
+    height: 110px;
+}
+
+aside {
+    width: 45%;
 }

@@ -6,25 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="./css/form.css" />   
+    <link rel="stylesheet" type="text/css" href="public/css/form.css" />   
 </head>
 
 <body>
-    <header id="txtPaste"><b>Введите новую запись</b></header>
-    <main>
-        <textarea class="newTitle" placeholder="Some Title"></textarea> 
-        <button class="btnDeadline" id="deadline">Deadline Date</button>
-        <textarea class="newNote" id="txtCopy" placeholder="Enter new Note"></textarea>
-        <button class="btnSave" id="btn">Save</button>
-    </main>
-    
-    <aside class="pole">
-        <section>
-            zdfsdflkgjsldfijhs;odifg;oadifj;oklbzfdb
-        </section>
-    </aside>
-
-    <script src="js/Hello.js"></script>
-    
+    <header></header>
+    <div class="wrapper">
+        <main>
+            <b>Введите новую запись</b>
+            <form action="index.html" method="post" class="user-form">
+                <input class="form-title form-elem newTitle" placeholder="Some Title"></input> 
+                <button class=" btnDeadline" id="deadline">Deadline Date</button>
+                <textarea class="form-text form-elem newNote" id="txtCopy" placeholder="Enter new Note"></textarea>
+                <button class="btnSave" id="btn">Save</button>
+            </form>
+        </main>
+        <aside></aside>
+    </div>
 </body>
 </html>
