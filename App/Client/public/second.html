@@ -15,13 +15,19 @@
         <main>
             <b>Введите новую запись</b>
             <form action="index.html" method="post" class="user-form">
-                <input class="form-title form-elem newTitle" placeholder="Some Title"></input> 
+                <input class="form-title form-elem" id="user-title" placeholder="Some Title"></input> 
                 <button class=" btnDeadline" id="deadline">Deadline Date</button>
-                <textarea class="form-text form-elem newNote" id="txtCopy" placeholder="Enter new Note"></textarea>
+                <textarea class="form-text form-elem" id="user-text" placeholder="Enter new Note"></textarea>
                 <button class="btnSave" id="btn">Save</button>
             </form>
         </main>
-        <aside></aside>
+        <script src="js/Hello.js"></script>
+        <aside>
+            <form class="sticer-form">
+                <h3 id="sticer-title">Some title inside</h3>
+                <p id="sticer-text">bla bla bla bla bla ta daa</p>
+            </form>
+        </aside>
     </div>
 </body>
 </html>

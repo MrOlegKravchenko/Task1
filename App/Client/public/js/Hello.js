@@ -24,9 +24,12 @@ var btn = document.getElementById('btn');
 function fx(event){
     event.preventDefault();
     console.log(event)
-    var txt =  document.getElementById("txtCopy").value;
-    console.log(txt)
-    document.getElementById("txtPaste").innerText = txt ;
+    var noteTitle =  document.getElementById("user-title").value;
+    var noteText =  document.getElementById("user-text").value;
+    console.log(title)
+    console.log(text)
+    document.getElementById("sticer-title").innerText = noteTitle;
+    document.getElementById("sticer-text").innerText = noteText;
 }
 
 

@@ -14,6 +14,10 @@ app.get('/',function(req,res){
     res.sendFile(path.join(__dirname,'../Client/public/second.html'));
 });
 
+app.get('/',function(req,res){
+    res.sendFile(path.join(__dirname,'../Client/public/js/Hello.js'));
+});
+
 app.listen(port, ()=>{
     console.log('server is up now. Check out port ' + port);
 });

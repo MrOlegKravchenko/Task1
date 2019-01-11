@@ -2,9 +2,8 @@
         /* CSS Document */ 
 * {
     margin: 0;
-    padding: 0;
+    padding: 3px;
 }
-
 body {
     background: linear-gradient(to bottom right, #D4C8DA, #CCEDC5);
 }
@@ -17,6 +16,10 @@ body {
 
 main {  
     width: 55%;
+}
+
+b {
+    padding: 20%;
 }
 
 .user-form {
@@ -40,4 +43,11 @@ main {
 
 aside {
     width: 45%;
+}
+
+.sticer-form {
+    width: 80%;
+    padding: 2px;
+    margin: 0 auto;
+    background-color: rgb(174, 205, 243);
 }
