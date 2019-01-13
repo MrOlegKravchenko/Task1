@@ -6,9 +6,9 @@ const port = 8080;
 
 app.use('/public',Express.static(path.join(__dirname,'../Client/public')));
 
-app.get('/oleg',function(req,res){
-    res.sendFile(path.join(__dirname,'../Client/public/index.html'));
-});
+// app.get('/oleg',function(req,res){
+//     res.sendFile(path.join(__dirname,'../Client/public/index.html'));
+// });
 
 app.get('/',function(req,res){
     res.sendFile(path.join(__dirname,'../Client/public/second.html'));

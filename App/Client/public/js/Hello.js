@@ -21,15 +21,21 @@ var btn = document.getElementById('btn');
 // }
 
 
-function fx(event){
-    event.preventDefault();
-    console.log(event)
-    var noteTitle =  document.getElementById("user-title").value;
-    var noteText =  document.getElementById("user-text").value;
-    console.log(title)
-    console.log(text)
-    document.getElementById("sticer-title").innerText = noteTitle;
-    document.getElementById("sticer-text").innerText = noteText;
+var arrayOfForm = [];
+
+arrayOfForm[0] = {
+    Ttl: "",
+    Txt: ""
+}
+
+btn.onclick = function fx(){
+    var noteTitle = document.getElementById("user-title").value;
+    var noteText = document.getElementById("user-text").value;
+    console.log(noteTitle)
+    console.log(noteText)
+    arrayOfForm[0].Ttl = noteTitle;
+    arrayOfForm[0].Txt = noteText;
+    console.log(arrayOfForm[0]);
 }
 
 
